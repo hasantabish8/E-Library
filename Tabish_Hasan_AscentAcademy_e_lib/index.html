@@ -1,0 +1,257 @@
+<!--TABISH HASAN
+ITER SOA-CSE
+2020-24
+INTERNSHIP PROJECT
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous"
+  />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Ascent Tabish Hasan's Library</title>
+    
+    <!-- Title bar icon -->
+    <link rel = "icon" href ="./assets/Favicons/3.png" type = "image/x-icon"> 
+
+  </head>
+  <body style="background-image: url('data:image/jpeg;base64,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'); background-color: rgba(236, 236, 236, 0.842); background-size: cover;
+  background-repeat: no-repeat;">
+
+    <div id="topBtn" title="Go to Top">
+      <a href="#"><span class="fa fa-angle-up"></span></a>
+    </div>
+
+    <!-- pre-loader -->
+    <div id="loading"></div>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+      <a class="navbar-brand ml-4" href="#"><img src="assets/logos/logg.png" alt="ASCENT ACADEMY LOGO" class="logo-img"></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item"><a href="./public/donate-book.html" class="nav-link">Donate Books</a></li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            id="searchTxt"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-dark my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <div id="message"></div>
+
+    <div class="container my-3">
+      <h1>ASCENT ACADEMY LIBRARY </h1>
+      <h5 align="center">
+        <a href="" style="color:black;" class="typewrite" data-period="2000" data-type='[ "“If you don’t like to read, you haven’t found the right book.” – J.K. Rowling", "“That’s the thing about books. They let you travel without moving your feet.” – Jhumpa Lahiri", "“There is more treasure in books than in all the pirate’s loot on Treasure Island.” – Walt Disney", "“Some of these things are true and some of them lies. But they are all good stories.” – Hilary Mantel" ]'>
+          <span class="wrap"></span>
+        </a>
+      </h5>
+      <hr />
+      <form id="libraryForm">
+        <div class="form-group row">
+          <label for="bookName" class="col-sm-2 col-form-label">Name</label>
+          <div class="col-sm-10">
+            <input
+              type="text"
+              class="input-box"
+              id="bookName"
+              placeholder="Book Name"
+            />
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="Author" class="col-sm-2 col-form-label">Author</label>
+          <div class="col-sm-10">
+            <input
+              type="text"
+              class="input-box"
+              id="author"
+              placeholder="Author"
+            />
+          </div>
+        </div>
+        <fieldset class="form-group">
+          <div class="row">
+            <legend class="col-form-label col-sm-2 pt-0">Category</legend>
+
+            <div class="col-sm-10">
+               
+                <div class="form-check">
+
+                  <select class="form-check-input" name="type" id="type">
+
+                    
+                    <option value="N/A">Select Category</option>
+                    <option value="Arts & Music">Arts & Music</option>
+                    <option value="Biographies">Biographies</option>
+                    <option value="Business">Business</option>
+                    <option value="Comics">Comics</option>
+                    <option value="Computer & Tech">Computers & Tech</option>
+                    <option value="Cooking">Cooking</option>
+                    <option value="Education & Reference">Education & Reference</option>
+                    <option value="Entertainment">Entertainment</option>
+                    <option value="Health & Fitness">Health & Fitness</option>
+                    <option value="History">History</option>
+                    <option value="Hobbies & Crafts">Hobbies & Crafts</option>
+                    <option value="Home & Garden">Home & Garden</option>
+                    <option value="Horror">Horror</option>
+                    <option value="Kids">Kids</option>
+                    <option value="Literature & Fiction">Literature & Fiction</option>
+                    <option value="Medical">Medical</option>
+                    <option value="Mystery">Mystery</option>
+                    <option value="Parenting">Parenting</option>
+                    <option value="Religion">Religion</option>
+                    <option value="Romance">Romance</option>
+                    <option value="Sci-Fi & Fantasy">Sci-Fi & Fantasy</option>
+                    <option value="Science & Maths">Science & Maths</option>
+                    <option value="Self-Help">Self-Help</option>
+                    <option value="Social Sciences">Social Sciences</option>
+                    <option value="Sports">Sports</option>
+                    <option value="Travel">Travel</option>
+                    <option value="True Crime">True Crime</option>
+                   
+                
+                  </select>
+                </div>
+            </div>
+          </div>
+        </fieldset>
+
+        <div class="form-group row">
+          <div class="col-sm-10">
+            <button type="submit" class="btn btn-primary">Add Book</button>
+          </div>
+        </div>
+      </form>
+
+      <div id="table">
+        <h1>Your books</h1>
+
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Author</th>
+
+              <th scope="col">Type</th>
+              <th scope="col">Category</th>
+
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+    </div>
+   <div >
+    <footer>
+        <div class="icons">
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/tabish-hasan-85a6127a/"><i class="fab fa-linkedin-in icon"></i></a>
+              </li>
+              <li>
+                <a href="https://github.com/hasantabish8" target="github"> <i class="fab fa-github icon"></i> </a>
+              </li>
+              <p>2023 Copyright © Tabish Hasan</p>
+            </ul>
+          </div>
+      </footer>
+      
+   </div>
+</div>
+    <!-- <footer>
+      <div class="footer-main">
+        <div class="text-center text-lg-start">
+          <div>© 2023 Copyright:</div>
+        </div>
+      </div>
+    </footer> -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <!-- Go to Top  -->
+    <script>
+      $(document).ready(function(){
+        $(window).scroll(function(){
+          if($(window).scrollTop() > 40){
+            $('#topBtn').css({
+              "opacity":"1", "pointer-events":"auto"
+            });
+          } else{
+            $('#topBtn').css({
+              "opacity":"0", "pointer-events":"none"
+            });
+          }
+        });
+
+        $("#topBtn").click(function(){
+          $('html ,body').animate({scrollTop : 0},400);
+        });
+      });
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
